@@ -3,7 +3,7 @@ package com.itm.oki.oki;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class splashScreen extends AppCompatActivity {
+public class principal extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
