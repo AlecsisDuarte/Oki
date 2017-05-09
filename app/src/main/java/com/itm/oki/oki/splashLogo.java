@@ -87,7 +87,7 @@ public class splashLogo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.principal_layout);
+        setContentView(R.layout.splas_logo_layout);
 
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
