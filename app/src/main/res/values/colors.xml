@@ -3,7 +3,14 @@
     <color name="colorPrimary">#ff5621</color>
     <color name="colorPrimaryDark">#c41b00</color>
     <color name="colorAccent">#ff894f</color>
-    <color name="fullScreenBackground">#001064</color>
+
+    <color name="darkBackground">#001064</color>
+    <color name="lighBackground">#283593</color>
+    <color name="accentBackground">#5f5fc4</color>
+
+    <color name="darkerBackground">#000051</color>
+    <color name="lighDarkerBackground">#1a237e</color>
+    <color name="accentDarkerBackground">#534bae</color>
 
     <color name="textOnPrimary">#fafafa</color>
     <color name="textOnSecondary">#000000</color>
