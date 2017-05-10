@@ -6,10 +6,10 @@
                 android:height="200dp"
                 android:width="200dp"/>
             <solid
-                android:color="@color/darkerBackground"/>
+                android:color="@color/lighBackground"/>
             <stroke
                 android:width="2dip"
-                android:color="@color/lighDarkerBackground" />
+                android:color="@color/accentBackground" />
             <padding
                 android:bottom="20dp"
                 android:left="20dp"
@@ -24,10 +24,10 @@
             <size
                 android:height="200dp"
                 android:width="200dp"/>
-            <solid android:color="@color/textOnSecondary" />
+            <solid android:color="@color/darkerBackground" />
             <stroke
                 android:width="2dip"
-                android:color="@color/darkerBackground" />
+                android:color="@color/lighDarkerBackground" />
             <padding
                 android:bottom="20dp"
                 android:left="20dp"

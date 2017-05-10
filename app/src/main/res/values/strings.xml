@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">Oki</string>
 
-    <string name="title_activity_splash_logo">splashLogo</string>
+    <string name="title_activity_splash_logo">Oki</string>
+    <string name="eye_button_description">Boton para iniciar y detener a Oki</string>
+    <string name="settings_button_description">Boton para configurar a Oki</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
 </resources>

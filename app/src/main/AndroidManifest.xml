@@ -13,14 +13,15 @@
             android:name=".splashLogo"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_splash_logo"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/FullscreenActionBarStyle">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".principal">
-        </activity>
+        <activity android:name=".principal"
+            android:label="@string/title_activity_splash_logo" />
     </application>
 
 </manifest>

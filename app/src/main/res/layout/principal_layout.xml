@@ -4,48 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorSecondaryAccent"
-    tools:context="com.itm.oki.oki.principal"
-    >
+    android:background="@android:color/white"
+    tools:context="com.itm.oki.oki.principal">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
+        android:orientation="vertical">
 
         <ImageButton
             android:id="@+id/eye_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_column="1"
             android:layout_margin="20dp"
-            android:layout_row="0"
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
             android:elevation="5dp"
             android:foregroundGravity="center"
             android:scaleType="fitXY"
-            app:srcCompat="@mipmap/eye_open" />
+            app:srcCompat="@mipmap/eye_open"
+            android:contentDescription="@string/eye_button_description" />
 
         <ImageButton
             android:id="@+id/settings_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/eye_button"
-            android:layout_below="@+id/eye_button"
-            android:layout_column="1"
             android:layout_margin="20dp"
-            android:layout_row="1"
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
             android:elevation="5dp"
             android:foregroundGravity="center"
             android:scaleType="fitXY"
-            app:srcCompat="@mipmap/gear_settings" />
+            app:srcCompat="@mipmap/gear_settings"
+            android:contentDescription="@string/settings_button_description"/>
     </LinearLayout>
 
 </RelativeLayout>
