@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ff5621</color>
-    <color name="colorPrimaryDark">#c41b00</color>
-    <color name="colorAccent">#ff894f</color>
+    <color name="colorPrimary">#0057e7</color>
+    <color name="colorPrimaryDark">#002fb5</color>
+    <color name="colorAccent">#6583ff</color>
 
     <color name="darkBackground">#001064</color>
     <color name="lighBackground">#283593</color>
@@ -15,9 +15,20 @@
     <color name="textOnPrimary">#fafafa</color>
     <color name="textOnSecondary">#000000</color>
 
-    <color name="colorSecondary">#9e9e9e</color>
-    <color name="colorSecondaryDark">#9e9e9e</color>
-    <color name="colorSecondaryAccent">#cfcfcf</color>
+    <color name="colorSecondary">#008744</color>
+    <color name="colorSecondaryDark">#00591a</color>
+    <color name="colorSecondaryAccent">#4bb870</color>
+
+    <color name="colorThird">#d62d20</color>
+    <color name="colorThirdDark">#9c0000</color>
+    <color name="colorThirdAccent">#ff644a</color>
+
+    <color name="colorFourth">#ffa700</color>
+    <color name="colorFourthDark">#c67800</color>
+    <color name="colorFourthAccent">#ffd84a</color>
+
+    <color name="colorLineSeparator">#9d9da5</color>
 
     <color name="black_overlay">#66000000</color>
+    <color name="shadowColor">#dcdcdc</color>
 </resources>

@@ -3,31 +3,42 @@
     <item android:state_pressed="false">
         <shape android:shape="oval">
             <size
-                android:height="200dp"
-                android:width="200dp"/>
+                android:height="150dp"
+                android:width="150dp"/>
             <solid
-                android:color="@color/lighBackground"/>
+                android:color="@color/colorPrimary"/>
             <stroke
                 android:width="2dip"
-                android:color="@color/accentBackground" />
+                android:color="@color/colorPrimary" />
             <padding
                 android:bottom="20dp"
                 android:left="20dp"
                 android:right="20dp"
                 android:top="20dp" />
-
+        </shape>
+        <shape android:shape="oval">
+            <size
+                android:height="150dp"
+                android:width="150dp"/>
+            <solid
+                android:color="@color/shadowColor"/>
+            <padding
+                android:bottom="25dp"
+                android:left="20dp"
+                android:right="22dp"
+                android:top="20dp" />
         </shape>
     </item>
 
     <item android:state_pressed="true">
         <shape android:shape="oval">
             <size
-                android:height="200dp"
-                android:width="200dp"/>
-            <solid android:color="@color/darkerBackground" />
+                android:height="149dp"
+                android:width="149dp"/>
+            <solid android:color="@color/darkBackground" />
             <stroke
                 android:width="2dip"
-                android:color="@color/lighDarkerBackground" />
+                android:color="@color/darkBackground" />
             <padding
                 android:bottom="20dp"
                 android:left="20dp"

@@ -30,14 +30,14 @@ public class splashLogo extends AppCompatActivity {
         setContentView(R.layout.splash_logo_layout);
 
         gif = (ImageView)findViewById(R.id.eye_gif);
-        Glide.with(this).load(R.drawable.oki_animation).into(gif);
+        Glide.with(this).load(R.drawable.oky_animation).into(gif);
 
         mVisible = true;
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(splashLogo.this, principal.class);
+                Intent i = new Intent(splashLogo.this, PrincipalActivity.class);
                 startActivity(i);
 
                 finish();
