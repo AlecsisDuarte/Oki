@@ -16,15 +16,44 @@
 
 <resources>
 
-    <string name="title_activity_splash_logo">Oki</string>
-    <string name="eye_button_description">Boton para iniciar y detener a Oki</string>
-    <string name="settings_button_description">Boton para configurar a Oki</string>
+    <string name="title_activity_splash_logo">Oky</string>
+    <string name="eye_button_description">Botón para iniciar y detener a Oki</string>
+    <string name="settings_button_description">Botón para configurar a Oki</string>
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="title_settings_activity">Configuraciones</string>
 
 
     <!-- Titles -->
-    <string name="app_name">Oki</string>
+    <string name="app_name">Oky</string>
+
+    <!-- GooglyEyes -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">El acceso a la cámara es necesario para la detección facial</string>
+    <string name="no_camera_permission">Esta aplicación no puede correr si no tiene permisos para la cámara. La aplicación se cerrará.</string>
+    <string name="low_storage_error">No se pueden descargar las dependencias del detector facial por bajo espacio de memoria</string>
+    <string name="flip_button">Rotar</string>
+    <string name="preview_label">Vista Previa</string>
+
+    <!-- Alert Dialog -->
+    <string name="alerta_dialog_title">Tipo de Alerta</string>
+    <string name="alerta_dialog_ok_button">OK</string>
+    <string name="alerta_dialog_cancel_button">CANCELAR</string>
+    <array name="tipos_alertas">
+        <item>Sonido</item>
+        <item>Visual</item>
+        <item>Vibración</item>
+        <item>Llamada</item>
+    </array>
+
+    <!-- Alert Dialog -->
+    <string name="camara_dialog_title">Tipo de cámara</string>
+    <string name="camara_dialog_ok_button">OK</string>
+    <string name="camara_dialog_cancel_button">CANCELAR</string>
+    <array name="tipos_camaras">
+        <item>Frontal</item>
+        <item>Trasera</item>
+        <item>Externa</item>
+    </array>
 
 </resources>

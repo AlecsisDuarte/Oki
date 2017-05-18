@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.itm.oki.oki">
+    package="com.itm.oki.oki"
+    android:installLocation="auto">
+
+    <uses-feature android:name="android.hardware.camera" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/oky_padded_round_logo"
+        android:icon="@mipmap/oky_shield_logo_transparent"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/eye_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face" />
         <activity
             android:name=".splashLogo"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -32,6 +41,19 @@
                 android:value=".PrincipalActivity"/>
 
         </activity>
+        <activity
+            android:name=".GooglyEyesActivity"
+            android:label="@string/preview_label"
+            android:screenOrientation="fullSensor">
+        </activity>
+        <service
+            android:name=".camera.BackgroundSoundService"
+            android:exported="false"/>
     </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 
 </manifest>

@@ -30,7 +30,7 @@ public class splashLogo extends AppCompatActivity {
         setContentView(R.layout.splash_logo_layout);
 
         gif = (ImageView)findViewById(R.id.eye_gif);
-        Glide.with(this).load(R.drawable.oky_animation).into(gif);
+        Glide.with(this).load(R.drawable.oky_animation_3).into(gif);
 
         mVisible = true;
 

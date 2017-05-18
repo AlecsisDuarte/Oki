@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#0057e7</color>
+    <color name="colorPrimary">#4885ed</color>
     <color name="colorPrimaryDark">#002fb5</color>
     <color name="colorAccent">#6583ff</color>
 
@@ -19,11 +19,11 @@
     <color name="colorSecondaryDark">#00591a</color>
     <color name="colorSecondaryAccent">#4bb870</color>
 
-    <color name="colorThird">#d62d20</color>
+    <color name="colorThird">#c01d2e</color>
     <color name="colorThirdDark">#9c0000</color>
     <color name="colorThirdAccent">#ff644a</color>
 
-    <color name="colorFourth">#ffa700</color>
+    <color name="colorFourth">#f4c20d</color>
     <color name="colorFourthDark">#c67800</color>
     <color name="colorFourthAccent">#ffd84a</color>
 
