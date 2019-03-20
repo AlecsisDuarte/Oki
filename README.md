@@ -1,5 +1,5 @@
 # Oki 
-## Drowsiness prevental application
+## Drowsiness prevental application :zzz:
 
 The application notifies the user if he or she is falling asleep behind the wheel using the front 
 camera to detect whether the eyes are closing more than usual with a background running service.
